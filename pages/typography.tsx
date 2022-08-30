@@ -2,7 +2,7 @@ import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import imageLoader from '../imageLoader'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
 
 // Child components
@@ -26,7 +26,7 @@ const Typography: NextPage = () => {
 
       <Header />
 
-      <h1>Typography</h1>
+      {/* <h1>Typography</h1> */}
 
     </div>
   )
