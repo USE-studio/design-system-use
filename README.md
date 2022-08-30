@@ -24,6 +24,26 @@ Light and dark themes are defined in scss files
 
 
 
+Following this tutorial:
+
+Learn Next.js With TypeScript in 30 Minutes
+https://www.youtube.com/watch?v=OTuHnVvxTDs
+
+
+
+resources
+https://github.com/TomDoesTech/beginners-guide-to-next.js
+https://app.quicktype.io/
+
+
+Tips
+
+With
+```
+$ npm run build:static
+```
+We build a static website. The output is in the out folder
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.

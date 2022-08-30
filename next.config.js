@@ -13,6 +13,8 @@ const nextConfig = {
     domains: [
       "rickandmortyapi.com"
     ],
+    loader: "custom",
+    path: "/"
   }
 }
 
