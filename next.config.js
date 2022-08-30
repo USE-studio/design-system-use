@@ -8,6 +8,12 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  // Images
+  images: {
+    domains: [
+      "rickandmortyapi.com"
+    ],
+  }
 }
 
 module.exports = nextConfig
