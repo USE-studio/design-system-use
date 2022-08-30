@@ -1,7 +1,16 @@
 import type { GetStaticProps, NextPage } from 'next'
+
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/Link'
 import imageLoader from '../imageLoader'
+
+// import {
+//   Head,
+//   Image,
+//   Link
+// } from 'next'
+
 import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
 
@@ -37,6 +46,16 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
           </div>
         )
       })} */}
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Welcome to <a href="https://use.as" target="_blank">USE's</a> Design System
+        </h1>
+
+        <Link href="/typography">
+          <a>Typography</a>
+        </Link>
+      </main>
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
