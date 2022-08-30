@@ -24,3 +24,14 @@ a {
     background: black;
   }
 }
+
+.test-text {
+  position: relative;
+  &::before {
+    content: "test";
+    position: absolute;
+    // top: -1.5rem;
+    left: -3rem;
+    font-size: 10px;
+  }
+}

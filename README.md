@@ -15,6 +15,12 @@ Deployed at:
 https://design-system-use.netlify.app/
 ```
 
+## Styling
+Light and dark themes are defined in scss files
+```
+@media (prefers-color-scheme: dark) {...}
+```
+
 
 
 
