@@ -49,7 +49,7 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://use.as" target="_blank">USE's</a> Design System
+          Welcome to <a href="https://use.as" target="_blank" rel="noreferrer">USE's</a> Design System
         </h1>
 
         <Link href="/typography">
