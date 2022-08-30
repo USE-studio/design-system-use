@@ -5,6 +5,13 @@ import imageLoader from '../imageLoader'
 import styles from '../styles/Home.module.css'
 import {Character, GetCharacterResults } from '../types'
 
+import {
+  map
+} from '../public/js/helpers'
+
+// Fetch the Figma variables
+import '../public/js/fetch-figma-variables.js'
+
 const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
   return (
     <div className={styles.container}>
@@ -15,7 +22,7 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
       </Head>
 
       {/* {JSON.stringify(characters)} */}
-      {characters.map((character) => {
+      {/* {characters.map((character) => {
         return (
           <div key={character.id}>
             {character.name}
@@ -29,7 +36,7 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
             /> 
           </div>
         )
-      })}
+      })} */}
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>

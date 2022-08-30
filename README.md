@@ -37,6 +37,10 @@ https://app.quicktype.io/
 
 
 Tips
+API and access tokens for Figma
+https://www.figma.com/developers/api#access-tokens
+Right click page and select 'Copy link to file' to see the uid
+
 
 With
 ```
