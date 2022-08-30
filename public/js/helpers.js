@@ -9,13 +9,13 @@ import {
 } from 'gsap'
 
 // Here we sort chapters and sections alphabetically
-const sortItems = (arr: any[]) => {
-  arr.sort(function(a, b) {
-    var textA = a.name.toLowerCase()
-    var textB = b.name.toLowerCase()
-    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0
-  })
-}
+// const sortItems = (arr: any[]) => {
+//   arr.sort(function(a, b) {
+//     var textA = a.name.toLowerCase()
+//     var textB = b.name.toLowerCase()
+//     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0
+//   })
+// }
 
 const radians = (degrees) => {
   return degrees * Math.PI / 180;

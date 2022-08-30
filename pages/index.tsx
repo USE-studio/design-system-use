@@ -2,7 +2,7 @@ import type { GetStaticProps, NextPage } from 'next'
 
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 import imageLoader from '../imageLoader'
 
 // import {
@@ -49,7 +49,7 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://use.as" target="_blank" rel="noreferrer">USE's</a> Design System
+          Welcome to <a href="https://use.as" target="_blank" rel="noreferrer">USE</a> Design System
         </h1>
 
         <Link href="/typography">
