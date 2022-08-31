@@ -25,7 +25,7 @@ const variants = {
  * Read the blog post here:
  * https://letsbuildui.dev/articles/animated-page-transitions-in-nextjs
  */
-const TransitionEffect1 = ({ children }) => {
+const TransitionEffect1 = ({ children }: any) => {
   const { asPath } = useRouter();
 
   return (
