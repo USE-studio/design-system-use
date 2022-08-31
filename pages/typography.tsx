@@ -9,6 +9,8 @@ import {Character, GetCharacterResults } from '../types'
 import Header from '../components/Header'
 import Table from '../components/Table'
 
+import taxonomy from '../public/images/taxonomy.png'
+
 import {
   map
 } from '../public/js/helpers'
@@ -25,9 +27,25 @@ const Typography: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <Header />
 
-      <Table />
+      <div className={styles.containerouter}>
+        <div className={styles.containerinner}>
+          
+          <Image
+            className="image-typography"
+            loader={imageLoader}
+            src={taxonomy}
+            width={828}
+            height={202}
+          />
+          {/* <div className="image-wrapper">
+          </div> */}
+
+          <Table />
+        </div>
+      </div>
 
       {/* <h1>Typography</h1> */}
 

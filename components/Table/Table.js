@@ -30,17 +30,17 @@ import {
 const Table = () => {
 
   return (
-    <div className="table-wrrapper">
+    <div className="table-wrapper">
       <div className="comparison">
         <table>
           <thead>
-            {/* <tr>
-              <th className="tl tl2"></th>
-              <th className="product">Product_1</th>
-              <th className="product">Product_2</th>
-              <th className="product">Product_3</th>
-            </tr>
             <tr>
+              <th className="product">Token</th>
+              <th className="product">Default Tag</th>
+              <th className="product">Value</th>
+              <th className="product">Example</th>
+            </tr>
+            {/* <tr>
               <th></th>
               <th className="price-info">
                 <div className="price-now"><span>$ Price</span>
@@ -62,32 +62,43 @@ const Table = () => {
           <tbody>
             <tr>
               <td></td>
-              <td>Sass Variable: font-xxl-fp-wb</td>
+              <td></td>
             </tr>
             <tr className="compare-row">
-              <td>item_1</td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
+              <td><span className="text-bold">Sass Variable:</span> font-xxl-fp-wb</td>
+              <td>Tag</td>
+              <td><span>Size and color</span></td>
+              <td className="example-font font-xxl-fp-wb">Test</td>
             </tr>
             <tr>
               <td> </td>
               <td>item_2</td>
             </tr>
+
             <tr>
-              <td>item_2</td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
+              <td><span className="text-bold">Sass Variable:</span> font-xl-fp-wb</td>
+              <td>Tag</td>
+              <td><span>Size and color</span></td>
+              <td className="example-font font-xl-fp-wb">Test</td>
             </tr>
+            
             <tr>
               <td> </td>
               <td>item_3</td>
             </tr>
+            
+            <tr>
+              <td><span className="text-bold">Sass Variable:</span> font-l-fp-wb</td>
+              <td>Tag</td>
+              <td><span>Size and color</span></td>
+              <td className="example-font font-l-fp-wb">Test</td>
+            </tr>
+            
+            <tr>
+              <td> </td>
+              <td>item_3</td>
+            </tr>
+            
             <tr className="compare-row">
               <td>item_3</td>
               <td><i className="fa fa-check"></i>
@@ -98,7 +109,7 @@ const Table = () => {
             </tr>
             <tr>
               <td> </td>
-              <td colspan="4">item_4</td>
+              <td>item_4</td>
             </tr>
             <tr>
               <td>item_4</td>
@@ -121,7 +132,7 @@ const Table = () => {
             </tr>
             <tr>
               <td> </td>
-              <td colspan="4">item_6</td>
+              <td>item_6</td>
             </tr>
             <tr>
               <td>item_6</td>

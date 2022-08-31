@@ -49,12 +49,20 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://use.as" target="_blank" rel="noreferrer">USE</a> Design System
+          <a href="https://use.as" target="_blank" rel="noreferrer">USE</a> Design System
         </h1>
 
-        <Link href="/typography">
-          <a>Typography</a>
-        </Link>
+        <div className="component-link-wrapper">
+          <Link href="/color">
+            <a className="link">Color</a>
+          </Link>
+          <Link href="/typography">
+            <a className="link">Typography</a>
+          </Link>
+          <Link href="/iconography">
+            <a className="link">Iconography 🛠</a>
+          </Link>
+        </div>
       </main>
 
       {/* <main className={styles.main}>

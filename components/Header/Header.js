@@ -8,6 +8,7 @@ import React,
 } from 'react'
 // import { API, graphqlOperation } from 'aws-amplify'
 // import { Link, withRouter } from 'react-router-dom';
+import Link from 'next/link'
 
 // import IlluIntro from '../../assets/icons/svg/IlluIntro'
 // import IlluBxDesign from '../../assets/icons/svg/illus/IlluBxDesign'
@@ -251,13 +252,17 @@ const Header = (props) => {
   return (
     <div className='header'>
       <div className='header__inner'>
+
+        <Link href="/">
+          {/* <a>Typography</a> */}
+          <div className='link back-link'></div>
+        </Link>
+
         <div className="column column--one">
           <h2>Typography Tokens</h2>
         </div>
         <div className="column column--two">
-          <p>Engine’s responsive layout grid has been designed for versatility and consistency across different devices, screen sizes and orientations. The grid is made up of fixed 20px gutters and fluid numbers of columns & margins width.
-
-            More reading on our frontify.</p>
+          <p>Engine’s typography scale has been designed for versatility and consistency across different devices, screen sizes and orientations. It ensures readability and legibility for all users.</p>
         </div>
       </div>
     </div>

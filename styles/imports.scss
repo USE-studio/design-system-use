@@ -1,4 +1,15 @@
 @import './variables.scss';
+@import './typography.scss';
+
+@import './typography-tokens.scss';
+
+@import './universals.scss';
+
+// Pages
+@import './landingpage.scss';
+
+// Elements
+@import './links.scss';
 
 // Components
 @import '../components/Header/header.scss';
