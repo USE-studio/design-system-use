@@ -1,10 +1,16 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 
+import TransitionEffect1 from "../components/TransitionEffect1";
+
 import './api'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <TransitionEffect1>
+      <Component {...pageProps} />
+    </TransitionEffect1>
+  )
 }
 
 export default MyApp

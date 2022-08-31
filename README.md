@@ -35,6 +35,9 @@ resources
 https://github.com/TomDoesTech/beginners-guide-to-next.js
 https://app.quicktype.io/
 
+Transitions
+https://codesandbox.io/s/animated-page-transitions-in-nextjs-yb71o5
+
 
 Tips
 API and access tokens for Figma
