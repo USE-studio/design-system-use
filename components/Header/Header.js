@@ -83,6 +83,34 @@ const Header = (props) => {
 
   useEffect(() => {
 
+    let header = document.getElementById('header')
+
+    window.onscroll = function (e) {
+      console.log(window.scrollY); // Value of scroll Y in px
+
+      if (window.scrollY > 50) {
+        header.classList.add('header-shrunk')
+      }
+      else {
+        header.classList.remove('header-shrunk')
+      }
+    };
+
+    // window.addEventListener("scroll", (e) => {
+
+    //   console.log(e)
+
+    //   // var scrolled = document.scrollTop;
+    //   // var position = header.offsetTop;
+    
+    //   if (document.body.scrollTop > 50) {
+    //     header.classList.add('header-shrunk')
+    //   }
+    //   else {
+    //     header.classList.remove('header-shrunk')
+    //   }
+
+    // });
     // fetchTags()
     // console.log('here we log whether there are any sub directories')
     // let locationPathname = window.location.pathname.split('/')
@@ -250,7 +278,7 @@ const Header = (props) => {
   // }
 
   return (
-    <div className='header'>
+    <div className='header' id="header">
       <div className='header__inner'>
 
         <Link href="/">

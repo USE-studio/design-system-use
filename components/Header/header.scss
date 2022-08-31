@@ -2,7 +2,7 @@
   background: $color-black;
 
   width: 100%;
-  height: 256px;
+  height: $header-height;
 
   display: flex;
   align-items: center;
@@ -10,6 +10,24 @@
   flex-direction: column;
 
   color: $color-white;
+
+  z-index: 2;
+  // position: sticky;
+  position: fixed;
+
+  top: 0;
+
+  transition: all 0.3s ease-in-out;
+
+  &.header-shrunk {
+    // background: red;
+    height: 56px;
+
+    .column--two {
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+  }
 
   h2 {
     font-size: 2rem;
@@ -28,11 +46,18 @@
 
     .column {
       width: 100%;
-      height: 100%;
+      // height: 100%;
+      padding-bottom: 0.5rem;
 
       display: flex;
       align-items: flex-start;
       // justify-content: cent  er;
+
+      transition: all 0.3s ease-in-out;
+
+      &.column--two {
+        //
+      }
     }
   }
   
