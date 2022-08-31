@@ -7,6 +7,7 @@ import {Character, GetCharacterResults } from '../types'
 
 // Child components
 import Header from '../components/Header'
+import Table from '../components/Table'
 
 import {
   map
@@ -25,6 +26,8 @@ const Typography: NextPage = () => {
       </Head>
 
       <Header />
+
+      <Table />
 
       {/* <h1>Typography</h1> */}
 

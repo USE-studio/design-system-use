@@ -1,5 +1,5 @@
- /* eslint-disable */
-import React, 
+/* eslint-disable */
+import React,
 {
   // useRef,
   useEffect,
@@ -15,7 +15,7 @@ import React,
 // import IconHome from '../../assets/icons/svg/IconHome'
 // import IconSearch from '../../assets/icons/svg/IconSearch'
 
-import { 
+import {
   TweenMax,
   Sine,
   // Back
@@ -55,7 +55,7 @@ import {
 // Selecting tags related
 // const { Option } = Select
 
-const Header = ( props ) => {
+const Header = (props) => {
   // Get global store items
   // This is where the global states are loaded in.
   // const {
@@ -164,12 +164,12 @@ const Header = ( props ) => {
   function onShowSearchTag() {
     // setVisibleSearchTag( true )
   };
-  
+
   function onCloseSearchTag() {
     // setVisibleSearchTag( false )
     // setVisibleIntro( false )
   };
-  
+
   // // Nav item Pillar was clicked
   // function navItemWasClickedPillar(e, name, value) {
   //   // console.log('navItemWasClickedPillar: ', e)
@@ -202,7 +202,7 @@ const Header = ( props ) => {
   //   // console.log(value)
   //   // setCurPillarID( value )
   // };
-  
+
   function handleChange(value) {
     // console.log(`selected ${value}`);
   }
@@ -224,7 +224,7 @@ const Header = ( props ) => {
   //     rotateZ: map(generateRandomNumber(10, 20), 10, 20, -8, 8)
   //   }, 0.05)
   // }
-  
+
   // Animation when mouse leaving a pillar card
   // const leaveCardForPillar = (which) => {
   //   // let whichItem = which === 'bxdesign' ? '.illu-shape--bxdesign' ? 
@@ -250,7 +250,16 @@ const Header = ( props ) => {
 
   return (
     <div className='header'>
-      <div className='header__inner'></div>
+      <div className='header__inner'>
+        <div className="column column--one">
+          <h2>Typography Tokens</h2>
+        </div>
+        <div className="column column--two">
+          <p>Engine’s responsive layout grid has been designed for versatility and consistency across different devices, screen sizes and orientations. The grid is made up of fixed 20px gutters and fluid numbers of columns & margins width.
+
+            More reading on our frontify.</p>
+        </div>
+      </div>
     </div>
   )
 }
