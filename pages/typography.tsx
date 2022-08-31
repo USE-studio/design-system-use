@@ -37,8 +37,8 @@ const Typography: NextPage = () => {
             className="image-typography"
             loader={imageLoader}
             src={taxonomy}
-            width={828}
-            height={302}
+            width="828px"
+            height="202px"
           />
           {/* <div className="image-wrapper">
           </div> */}

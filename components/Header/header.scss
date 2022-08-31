@@ -1,3 +1,5 @@
+$transition-time-header: 0.2s;
+
 .header {
   background: $color-black;
 
@@ -17,7 +19,7 @@
 
   top: 0;
 
-  transition: all 0.3s ease-in-out;
+  transition: all $transition-time-header ease-in-out;
 
   &.header-shrunk {
     // background: red;
@@ -53,7 +55,7 @@
       align-items: flex-start;
       // justify-content: cent  er;
 
-      transition: all 0.3s ease-in-out;
+      transition: all $transition-time-header ease-in-out;
 
       &.column--two {
         //
