@@ -59,6 +59,7 @@ const Table = () => {
               </th>
             </tr> */}
           </thead>
+          
           <tbody>
             <tr>
               <td></td>
@@ -99,100 +100,6 @@ const Table = () => {
               <td>item_3</td>
             </tr>
             
-            <tr className="compare-row">
-              <td>item_3</td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_4</td>
-            </tr>
-            <tr>
-              <td>item_4</td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_5</td>
-            </tr>
-            <tr className="compare-row">
-              <td>item_5</td>
-              <td><span>–</span></td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_6</td>
-            </tr>
-            <tr>
-              <td>item_6</td>
-              <td><span>–</span></td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_7</td>
-            </tr>
-            <tr className="compare-row">
-              <td>item_7</td>
-              <td><span>–</span></td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_8</td>
-            </tr>
-            <tr>
-              <td>item_8</td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_9</td>
-            </tr>
-            <tr className="compare-row">
-              <td>item_9</td>
-              <td><span>–</span></td>
-              <td><i className="fa fa-check"></i>
-              </td>
-              <td><i className="fa fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td>item_10</td>
-            </tr>
-            <tr>
-              <td>item_10</td>
-              <td>description_union row</td>
-            </tr>
-            <tr>
-              <td> </td>
-            </tr>
-            {/* <tr>
-              <td></td>
-              <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" className="price-buy">button<span className="hide-mobile"></span></a></td>
-              <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" className="price-buy">button<span className="hide-mobile"></span></a></td>
-              <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" className="price-buy">button<span className="hide-mobile"></span></a></td>
-            </tr> */}
           </tbody>
         </table>
 

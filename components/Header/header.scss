@@ -44,7 +44,13 @@ $transition-time-header: 0.2s;
     justify-content: center;
 
     position: relative;
-    // flex-direction: column;
+
+    @media screen and (max-width: $breakpoint-md) {
+      flex-direction: column;
+
+      padding-left: $uni-space-1;
+      padding-right: $uni-space-1;
+    }
 
     .column {
       width: 100%;

@@ -19,6 +19,11 @@
   font: 13px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   padding: 10px;
+
+  @media screen and (max-width: $breakpoint-md) {
+    padding-left: $uni-space-1;
+    padding-right: $uni-space-1;
+  }
 }
 
 .comparison table {
@@ -178,7 +183,7 @@ td {
     // display: none;
   }
   .comparison tbody tr:nth-child(odd) {
-    display: table-row;
+    // display: table-row;
     background: #F7F7F7;
   }
   .comparison .row {
@@ -215,5 +220,16 @@ td {
   }
   .comparison th {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  tr {
+    td, th {
+      &:nth-child(2) {
+        // background: red !important;
+        display: none;
+      }
+    }
   }
 }

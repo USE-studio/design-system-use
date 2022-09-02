@@ -17,6 +17,11 @@
   left: -4rem;
   top: 1rem;
 
+  @media screen and (max-width: $breakpoint-md) {
+    top: -2rem;
+    left: $uni-space-1;
+  }
+
   // background: red;
   background: url(../public/icons/icon-arrow-left.svg) no-repeat;
 }

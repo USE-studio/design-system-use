@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^3.5.0",
+    "aws-amplify": "^4.3.34",
     "figma-js": "^1.16.0",
     "framer-motion": "^7.2.1",
     "gsap": "^3.11.0",
