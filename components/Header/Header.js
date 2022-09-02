@@ -86,7 +86,7 @@ const Header = (props) => {
     let header = document.getElementById('header')
 
     window.onscroll = function (e) {
-      console.log(window.scrollY); // Value of scroll Y in px
+      // console.log(window.scrollY); // Value of scroll Y in px
 
       if (window.scrollY > 50) {
         header.classList.add('header-shrunk')
