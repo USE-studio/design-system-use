@@ -4,9 +4,8 @@ import * as Figma from 'figma-js'
 class FetchFigmaVariables {
   constructor() {
     // Figma - start
-    // this.accessToken = '249462-ec3f7631-8a9e-405d-a14f-70b523615b3b'
-    this.accessToken = 'figd_BWSBin1Kv_G_AJFiIKlE1MH0DrZGu4KiuCnUQq9J'
-    // this.accessToken = process.env.ACCESS_TOKEN
+
+    this.accessToken = process.env.ACCESS_TOKEN
     this.client = Figma.Client({
       personalAccessToken: this.accessToken
     })
@@ -21,7 +20,7 @@ class FetchFigmaVariables {
 
     // this.figmaFileFetch()
 
-    this.figmaGetStyles()
+    // this.figmaGetStyles()
   }
 
   async figmaGetStyles() {

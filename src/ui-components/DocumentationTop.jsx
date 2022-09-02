@@ -87,7 +87,7 @@ export default function DocumentationTop(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Grid System"
+              children="Typography Tokens"
               {...getOverrideProps(overrides, "Title2157")}
             ></Text>
           </Flex>
@@ -146,10 +146,10 @@ export default function DocumentationTop(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Last Updated: 03.08.22 – By: Runi Ellingsgaard"
+              children="Last Updated: 02.09.22 – By: Niels Konrad"
               {...getOverrideProps(
                 overrides,
-                "Last Updated: 03.08.22 \u2013 By: Runi Ellingsgaard"
+                "Last Updated: 02.09.22 \u2013 By: Niels Konrad"
               )}
             ></Text>
           </Flex>

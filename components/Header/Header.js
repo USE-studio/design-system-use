@@ -289,9 +289,9 @@ const Header = (props) => {
         <div className="column column--one">
           <h2>Typography Tokens</h2>
         </div>
-        <div className="column column--two">
+        {/* <div className="column column--two">
           <p>Engine’s typography scale has been designed for versatility and consistency across different devices, screen sizes and orientations. It ensures readability and legibility for all users.</p>
-        </div>
+        </div> */}
       </div>
     </div>
   )

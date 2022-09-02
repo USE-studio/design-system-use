@@ -9,6 +9,12 @@ import {Character, GetCharacterResults } from '../types'
 import Header from '../components/Header'
 import Table from '../components/Table'
 
+import {
+  DocumentationTop,
+  Charttypographytokens,
+  Illunamingconvention,
+} from '../src/ui-components'
+
 import taxonomy from '../public/images/taxonomy.png'
 
 import {
@@ -27,8 +33,9 @@ const Typography: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
       <Header />
+
+      <DocumentationTop />
 
       <div className={styles.containerouter}>
         <div className={styles.containerinner}>
@@ -42,6 +49,12 @@ const Typography: NextPage = () => {
           />
           {/* <div className="image-wrapper">
           </div> */}
+          
+          {/* <Illunamingconvention /> */}
+
+          <div className="spacer"></div>
+
+          <Charttypographytokens />
 
           <Table />
         </div>

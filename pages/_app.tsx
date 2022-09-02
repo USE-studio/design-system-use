@@ -1,3 +1,4 @@
+import '@aws-amplify/ui-react/styles.css'
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 

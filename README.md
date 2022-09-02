@@ -22,6 +22,11 @@ Light and dark themes are defined in scss files
 ```
 
 
+pull ui changes from amplify
+```
+$ amplify pull
+```
+
 
 
 Following this tutorial:
@@ -32,6 +37,9 @@ https://www.youtube.com/watch?v=OTuHnVvxTDs
 
 
 resources
+
+https://medium.com/@danhollick/a-designers-guide-to-the-figma-api-3a23a3f93d2
+
 https://github.com/TomDoesTech/beginners-guide-to-next.js
 https://app.quicktype.io/
 
