@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
 
 // Child components
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 import Table from '../components/Table'
 
 import {
@@ -33,7 +33,7 @@ const Color: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Navbar />
 
       <div className="spacer spacer-80"></div>
 

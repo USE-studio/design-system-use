@@ -56,7 +56,7 @@ import {
 // Selecting tags related
 // const { Option } = Select
 
-const Header = (props) => {
+const Navbar = (props) => {
   // Get global store items
   // This is where the global states are loaded in.
   // const {
@@ -298,4 +298,4 @@ const Header = (props) => {
 }
 
 // export default withRouter(Header)
-export default Header
+export default Navbar

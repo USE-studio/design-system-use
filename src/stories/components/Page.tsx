@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from './Header';
+import { Navbar } from '../../../components/Header/Navbar';
 // import './page.scss';
 import './page.css';
 
@@ -13,7 +13,7 @@ export const Page: React.VFC = () => {
 
   return (
     <article>
-      <Header
+      <Navbar
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
         onLogout={() => setUser(undefined)}
