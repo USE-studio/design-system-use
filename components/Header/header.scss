@@ -21,23 +21,36 @@ $transition-time-header: 0.2s;
 
   transition: all $transition-time-header ease-in-out;
 
+  // padding: 48px 82px 48px 82px;
+  padding: 0 82px;
+
   &.header-shrunk {
     // background: red;
-    height: 56px;
+    // height: 50px !important;
+
+    // .back-link {
+    //   top: -1rem;
+    // }
+
+    h2 {
+      // transform: scale(0.5);
+      font-size: 1rem;
+    }
 
     .column--two {
-      transform: translateY(-40px);
+      // transform: translateY(-40px);
       opacity: 0;
     }
   }
 
   h2 {
     font-size: 2rem;
+    transition: all $transition-time-header ease;
   }
 
   .header__inner {
     width: 100%;
-    max-width: 1200px;
+    // max-width: 1200px;
 
     display: flex;
     align-items: center;
@@ -61,7 +74,7 @@ $transition-time-header: 0.2s;
       align-items: flex-start;
       // justify-content: cent  er;
 
-      transition: all $transition-time-header ease-in-out;
+      // transition: all $transition-time-header ease-in-out;
 
       &.column--two {
         //
