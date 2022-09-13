@@ -71,6 +71,18 @@ npx serve out
 
 
 
+Storybook
+https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
+
+Run Storybook
+```
+$ yarn storybook
+// or 
+$ npm run storybook
+```
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
