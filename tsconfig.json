@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Header/index.js", "components/Header/Heade.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Navbar/index.js", "components/Header/Heade.js", "components/Header/Header.js", "src/stories/pages/home.stories.jsx"],
   "exclude": ["node_modules"]
 }

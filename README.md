@@ -80,7 +80,16 @@ $ yarn storybook
 // or 
 $ npm run storybook
 ```
+http://localhost:6006/
 
+Rebuild if it fails
+$ npx sb init --builder webpack5
+
+
+
+
+Nextjs and Storybook Example project
+https://github.com/alexeagleson/nextjs-fullstack-app-template 
 
 
 
