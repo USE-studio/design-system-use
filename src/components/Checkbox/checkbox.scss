@@ -1,13 +1,6 @@
 $checkbox-w: 24px;
 $checkbox-h: 24px;
 $checkbox-m-r: 8px;
-// .Checkbox_title {
-//   //
-//   background: #dfdfdf;
-//   color: red;
-
-//   padding: 12px 24px;
-// }
 
 /* This css is for normalizing styles. You can skip this. */
 *, *:before, *:after {
@@ -24,42 +17,31 @@ $checkbox-m-r: 8px;
 }
 
 .form-group input {
-  &[type=checkbox] {
-    padding: 0;
-    // height: initial;
-    // width: initial;    
-    margin-bottom: 0;
-    display: none;
-    cursor: pointer;
-  }
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
 }
 
 .form-group label {
   position: relative;
   cursor: pointer;
-
-  font-family: Helvetica, Arial, 'sans-serif';
-
-  // @include center();
-  display: flex;
-  align-items: center;
 }
 
 .form-group label:before {
   content:'';
   -webkit-appearance: none;
   background-color: transparent;
-  border: 2px solid #131313;
+  border: 2px solid #0079bf;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
   padding: 10px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: $checkbox-m-r;
-
-  width: $checkbox-w;
-  height: $checkbox-h;
+  margin-right: 5px;
 }
 
 .form-group input:checked + label:after {
@@ -69,10 +51,84 @@ $checkbox-m-r: 8px;
   top: 2px;
   left: 9px;
   width: 6px;
-  height: $checkbox-h;
-
-  // border: solid #f8f8f8;
-  border: solid #f80000;
+  height: 14px;
+  border: solid #0079bf;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+
+// .Checkbox_title {
+//   //
+//   background: #dfdfdf;
+//   color: red;
+
+//   padding: 12px 24px;
+// }
+
+// /* This css is for normalizing styles. You can skip this. */
+// *, *:before, *:after {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .form-group {
+//   display: block;
+//   margin-bottom: 15px;
+// }
+
+// .form-group input {
+//   &[type=checkbox] {
+//     padding: 0;
+//     // height: initial;
+//     // width: initial;    
+//     margin-bottom: 0;
+//     display: none;
+//     cursor: pointer;
+//   }
+// }
+
+// .form-group label {
+//   position: relative;
+//   cursor: pointer;
+
+//   font-family: Helvetica, Arial, 'sans-serif';
+
+//   // @include center();
+//   display: flex;
+//   align-items: center;
+// }
+
+// .form-group label:before {
+//   content:'';
+//   -webkit-appearance: none;
+//   background-color: transparent;
+//   border: 2px solid #131313;
+//   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+//   padding: 10px;
+//   display: inline-block;
+//   position: relative;
+//   vertical-align: middle;
+//   cursor: pointer;
+//   margin-right: $checkbox-m-r;
+
+//   width: $checkbox-w;
+//   height: $checkbox-h;
+// }
+
+// .form-group input:checked + label:after {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   top: 2px;
+//   left: 9px;
+//   width: 6px;
+//   height: $checkbox-h;
+
+//   // border: solid #f8f8f8;
+//   border: solid #f80000;
+//   border-width: 0 2px 2px 0;
+//   transform: rotate(45deg);
+// }
