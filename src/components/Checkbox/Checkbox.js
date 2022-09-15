@@ -1,9 +1,14 @@
-import styles from './checkbox.module.scss'
+// import styles from './checkbox.module.scss'
+import './checkbox.scss'
 
-const Checkbox = ({  }) => {
+// Based on https://codepen.io/nikkz/pen/BzVBJo
+const Checkbox = ({ labelName }) => {
   return (
     <>
-      <h3 className={styles.Checkbox_title}>Test</h3>
+      <div class="form-group">
+        <input type="checkbox" id="checkboxLabel" />
+        <label for="html">Label</label>
+      </div>
     </>
   )
 }
