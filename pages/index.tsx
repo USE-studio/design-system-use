@@ -11,6 +11,9 @@ import imageLoader from '../imageLoader'
 //   Link
 // } from 'next'
 
+// Child components
+import Checkbox from '../components/Checkbox'
+
 import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
 
@@ -51,6 +54,8 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
         <h1 className={styles.title}>
           <a href="https://use.as" target="_blank" rel="noreferrer">USE</a> Design System
         </h1>
+
+        <Checkbox />
 
         <div className="component-link-wrapper">
           <Link href="/color">

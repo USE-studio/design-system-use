@@ -87,6 +87,11 @@ $ npx sb init --builder webpack5
 
 
 
+Storybook and scss
+https://www.youtube.com/watch?v=QjZIeA952jE
+From Design to Development Crash Course - Full Stack Next.js Tutorial
+
+
 
 Nextjs and Storybook Example project
 https://github.com/alexeagleson/nextjs-fullstack-app-template 

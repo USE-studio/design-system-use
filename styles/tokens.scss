@@ -1,0 +1,474 @@
+$color-greyscale-gs-10: rgba(19,19,19,1);
+$color-greyscale-gs-9: rgba(51,51,51,1);
+$color-greyscale-gs-8: rgba(81,81,81,1);
+$color-greyscale-gs-7: rgba(100,100,100,1);
+$color-greyscale-gs-6: rgba(139,139,139,1);
+$color-greyscale-gs-5: rgba(172,172,172,1);
+$color-greyscale-gs-4: rgba(209,209,209,1);
+$color-greyscale-gs-3: rgba(227,227,227,1);
+$color-greyscale-gs-2: rgba(238,238,238,1);
+$color-greyscale-gs-1: rgba(247,247,247,1);
+$color-greyscale-gs-0: rgba(255,255,255,1);
+$color-primary-scale-ps-10: rgba(186,65,21,1);
+$color-primary-scale-ps-9: rgba(212,77,28,1);
+$color-primary-scale-ps-8: rgba(226,83,31,1);
+$color-primary-scale-ps-7: rgba(240,90,36,1);
+$color-primary-scale-ps-6: rgba(251,96,40,1);
+$color-primary-scale-ps-5: rgba(251,119,72,1);
+$color-primary-scale-ps-4: rgba(252,143,105,1);
+$color-primary-scale-ps-3: rgba(252,174,148,1);
+$color-primary-scale-ps-2: rgba(253,206,190,1);
+$color-primary-scale-ps-1: rgba(250,234,231,1);
+$color-secondary-scale-ss-10: rgba(0,0,204,1);
+$color-secondary-scale-ss-9: rgba(0,37,219,1);
+$color-secondary-scale-ss-8: rgba(0,51,230,1);
+$color-secondary-scale-ss-7: rgba(0,63,243,1);
+$color-secondary-scale-ss-6: rgba(0,72,255,1);
+$color-secondary-scale-ss-5: rgba(73,103,255,1);
+$color-secondary-scale-ss-4: rgba(113,132,255,1);
+$color-secondary-scale-ss-3: rgba(159,168,255,1);
+$color-secondary-scale-ss-2: rgba(199,202,255,1);
+$color-secondary-scale-ss-1: rgba(233,234,255,1);
+$color-error-scale-error-10: rgba(218,0,0,1);
+$color-error-scale-error-9: rgba(241,0,0,1);
+$color-error-scale-error-8: rgba(255,0,0,1);
+$color-error-scale-error-7: rgba(255,21,7,1);
+$color-error-scale-error-6: rgba(255,32,12,1);
+$color-error-scale-error-5: rgba(255,84,54,1);
+$color-error-scale-error-4: rgba(255,121,91,1);
+$color-error-scale-error-3: rgba(255,162,138,1);
+$color-error-scale-error-2: rgba(255,199,184,1);
+$color-error-scale-error-1: rgba(255,231,230,1);
+$color-success-scale-success-10: rgba(0,104,55,1);
+$color-success-scale-success-9: rgba(17,136,76,1);
+$color-success-scale-success-8: rgba(25,153,88,1);
+$color-success-scale-success-7: rgba(36,172,101,1);
+$color-success-scale-success-6: rgba(44,188,112,1);
+$color-success-scale-success-5: rgba(83,198,133,1);
+$color-success-scale-success-4: rgba(117,209,155,1);
+$color-success-scale-success-3: rgba(159,221,183,1);
+$color-success-scale-success-2: rgba(197,234,211,1);
+$color-success-scale-success-1: rgba(231,247,237,1);
+$color-warning-scale-warning-10: rgba(249,115,7,1);
+$color-warning-scale-warning-9: rgba(250,146,12,1);
+$color-warning-scale-warning-8: rgba(250,162,15,1);
+$color-warning-scale-warning-7: rgba(250,180,19,1);
+$color-warning-scale-warning-6: rgba(250,194,26,1);
+$color-warning-scale-warning-5: rgba(250,203,48,1);
+$color-warning-scale-warning-4: rgba(251,214,84,1);
+$color-warning-scale-warning-3: rgba(252,225,133,1);
+$color-warning-scale-warning-2: rgba(253,236,181,1);
+$color-warning-scale-warning-1: rgba(254,248,226,1);
+@mixin text-style-primary-bold-font-xxl-fp-wb {
+	font-size:96px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:100px;
+	letter-spacing:-2.5px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-xl-fp-wb {
+	font-size:60px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:64px;
+	letter-spacing:-2.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-l-fp-wb {
+	font-size:48px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:52px;
+	letter-spacing:-0.015em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-lm-fp-wb {
+	font-size:34px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:38px;
+	letter-spacing:-0.012em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-m-fp-wb {
+	font-size:24px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:-0.95px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-ms-fp-wb {
+	font-size:20px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:24px;
+	letter-spacing:-0.8px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-r-fp-wb {
+	font-size:16px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-rs-fp-wb {
+	font-size:14px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:18px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-s-fp-wb {
+	font-size:12px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:18px;
+	letter-spacing:-0.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-bold-font-xs-fp-wb {
+	font-size:10px;
+	font-family:"Helvetica";
+	font-weight:700;
+	font-style:normal;
+	line-height:16px;
+	letter-spacing:-0.3px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-xxl-fp-wr {
+	font-size:96px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:100px;
+	letter-spacing:-2.5px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-xl-fp-wr {
+	font-size:60px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:64px;
+	letter-spacing:-2.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-l-fp-wr {
+	font-size:48px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:52px;
+	letter-spacing:-0.015em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-lm-fp-wr {
+	font-size:34px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:38px;
+	letter-spacing:-0.012em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-m-fp-wr {
+	font-size:24px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:-0.95px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-ms-fp-wr {
+	font-size:20px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:24px;
+	letter-spacing:-0.8px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-r-fp-wr {
+	font-size:16px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-rs-fp-wr {
+	font-size:14px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:18px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-s-fp-wr {
+	font-size:12px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:18px;
+	letter-spacing:-0.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-primary-regular-font-xs-fp-wr {
+	font-size:10px;
+	font-family:"Helvetica";
+	font-weight:400;
+	font-style:normal;
+	line-height:16px;
+	letter-spacing:-0.3px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-xxl-fs-wb {
+	font-size:96px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:100px;
+	letter-spacing:-2.5px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-xl-fs-wb {
+	font-size:60px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:64px;
+	letter-spacing:-2.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-l-fs-wb {
+	font-size:48px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:52px;
+	letter-spacing:-0.015em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-lm-fs-wb {
+	font-size:34px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:38px;
+	letter-spacing:-0.012em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-m-fs-wb {
+	font-size:24px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:-0.95px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-ms-fs-wb {
+	font-size:20px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:24px;
+	letter-spacing:-0.8px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-r-fs-wb {
+	font-size:16px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-rs-fs-wb {
+	font-size:14px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:18px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-s-fs-wb {
+	font-size:12px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:18px;
+	letter-spacing:-0.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-bold-font-xs-fs-wb {
+	font-size:10px;
+	font-family:"Baskerville";
+	font-weight:700;
+	font-style:normal;
+	line-height:16px;
+	letter-spacing:-0.3px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-xxl-fs-wr {
+	font-size:96px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:100px;
+	letter-spacing:-2.5px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-xl-fs-wr {
+	font-size:60px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:64px;
+	letter-spacing:-2.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-l-fs-wr {
+	font-size:48px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:52px;
+	letter-spacing:-0.015em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-lm-fs-wr {
+	font-size:34px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:38px;
+	letter-spacing:-0.012em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-m-fs-wr {
+	font-size:24px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:-0.95px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-ms-fs-wr {
+	font-size:20px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:24px;
+	letter-spacing:-0.8px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-r-fs-wr {
+	font-size:16px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-rs-fs-wr {
+	font-size:14px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:18px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-s-fs-wr {
+	font-size:12px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:18px;
+	letter-spacing:-0.4px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-secondary-regular-font-xs-fs-wr {
+	font-size:10px;
+	font-family:"Baskerville";
+	font-weight:400;
+	font-style:normal;
+	line-height:16px;
+	letter-spacing:-0.3px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin effect-style-dropshadow-bs-1 {
+	box-shadow:0px 1px 3px rgba(0,0,0,0.060), 2px 1px 3px 1px rgba(0,0,0,0.030);
+}
+@mixin effect-style-dropshadow-bs-1 {
+	box-shadow:0px 1px 3px rgba(0,0,0,0.060), 2px 1px 3px 1px rgba(0,0,0,0.030);
+}
+@mixin effect-style-dropshadow-bs-2 {
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.060), 0px 4px 4px 4px rgba(0,0,0,0.010);
+}
+@mixin effect-style-dropshadow-bs-2 {
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.060), 0px 4px 4px 4px rgba(0,0,0,0.010);
+}
+@mixin effect-style-dropshadow-bs-3 {
+	box-shadow:1px 2px 9px 2px rgba(0,0,0,0.060), 4px 3px 0px rgba(0,0,0,0.010);
+}
+@mixin effect-style-dropshadow-bs-3 {
+	box-shadow:1px 2px 9px 2px rgba(0,0,0,0.060), 4px 3px 0px rgba(0,0,0,0.010);
+}
+@mixin effect-style-dropshadow-bs-4 {
+	box-shadow:0px 10px 30px 5px rgba(0,0,0,0.100);
+}
