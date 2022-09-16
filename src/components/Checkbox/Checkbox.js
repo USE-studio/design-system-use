@@ -5,9 +5,9 @@ import './checkbox.scss'
 const Checkbox = ({ labelName }) => {
   return (
     <>
-      <div class="form-group">
+      <div className="form-group">
         <input type="checkbox" id="checkboxLabel" />
-        <label for="html">Label</label>
+        <label htmlFor="html">Label</label>
       </div>
     </>
   )

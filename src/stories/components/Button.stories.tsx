@@ -22,11 +22,24 @@ Primary.args = {
   primary: true,
   label: 'Button',
 };
+const figmaUrl = 'https://www.figma.com/file/M0GRfjcIleAgPBOvBi4ELh/Engine-Designsystem?node-id=2%3A6'
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: figmaUrl
+  }
+}
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
 };
+Secondary.parameters = {
+  design: {
+    type: 'figma',
+    url: figmaUrl
+  }
+}
 
 export const Large = Template.bind({});
 Large.args = {

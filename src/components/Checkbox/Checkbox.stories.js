@@ -21,15 +21,23 @@ const Template = (args) => <Checkbox {...args} />;
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-// Default.args = {
-//   primary: true,
-//   label: 'Checkbox',
-// };
 
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-// };
+Default.args = {
+  primary: true,
+  label: 'Checkbox',
+}
+const figmaUrl = 'https://www.figma.com/file/M0GRfjcIleAgPBOvBi4ELh/Engine-Designsystem?node-id=2%3A11'
+Default.parameters = {
+  design: {
+    type: 'figma',
+    url: figmaUrl
+  }
+}
+
+export const Checked = Template.bind({});
+Checked.args = {
+  label: 'Checkbox',
+}
 
 // export const Large = Template.bind({});
 // Large.args = {

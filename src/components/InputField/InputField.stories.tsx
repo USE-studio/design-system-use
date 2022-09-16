@@ -24,7 +24,14 @@ export const Default = Template.bind({});
 Default.args = {
   primary: true,
   label: 'Label',
-};
+}
+const figmaUrl = 'https://www.figma.com/file/M0GRfjcIleAgPBOvBi4ELh/Engine-Designsystem?node-id=36%3A7623'
+Default.parameters = {
+  design: {
+    type: 'figma',
+    url: figmaUrl
+  }
+}
 
 // export const Secondary = Template.bind({});
 // Secondary.args = {
