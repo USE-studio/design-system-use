@@ -10,6 +10,15 @@ npm run dev
 yarn dev
 ```
 
+
+Run storybook
+```
+$ yarn storybook
+http://localhost:6006/
+```
+
+
+
 Deployed at:
 ```
 https://design-system-use.netlify.app/

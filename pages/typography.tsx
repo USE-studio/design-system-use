@@ -6,8 +6,8 @@ import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
 
 // Child components
-import Navbar from '../components/Navbar'
-import Table from '../components/Table'
+import Navbar from '../src/components/Navbar'
+import Table from '../src/components/Table'
 
 import {
   DocumentationTop,

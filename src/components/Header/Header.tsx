@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from '../../src/stories/components/Button';
+import { Button } from '../../stories/components/Button';
 // import './header.scss';
 import './header.css';
 

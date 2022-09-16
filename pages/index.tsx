@@ -12,7 +12,7 @@ import imageLoader from '../imageLoader'
 // } from 'next'
 
 // Child components
-import Checkbox from '../components/Checkbox'
+import Checkbox from '../src/components/Checkbox'
 
 import styles from '../styles/Home.module.scss'
 import {Character, GetCharacterResults } from '../types'
